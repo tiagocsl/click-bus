@@ -6,6 +6,10 @@
         "noUnusedLocals": true /* Report errors on unused locals. */,
         "strictPropertyInitialization": false,
         "baseUrl": "src",
+        "paths": {
+            "core/*": ["core/*"],
+            "@infra/*": ["infra/*"]
+        },
         "outDir": "./dist",
         "experimentalDecorators": true,
         "emitDecoratorMetadata": true,
